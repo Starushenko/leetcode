@@ -35,6 +35,17 @@ public class Main {
         System.out.println(Arrays.toString(twoSum(nums_2,target_2)));
         System.out.println(Arrays.toString(twoSum(nums_3,target_3)));
 
+        //maxProfit
+        int[] prices1 = {7,1,5,3,6,4};//5
+        int[] prices2 = {7,6,4,3,1};//0
+        System.out.println(MaxProfit.maxProfit(prices1));
+        System.out.println(MaxProfit.maxProfit(prices2));
+
+        //reverseArray
+        int[] startArray = {1,2,3,4,5};
+        System.out.println("Start array: "+Arrays.toString(startArray));
+        System.out.println("Reversed array: "+Arrays.toString(ReverseArray.reverseArray(startArray)));
+
 
     }
     private static boolean isPalindrome(String text) {
