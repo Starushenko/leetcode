@@ -46,6 +46,11 @@ public class Main {
         System.out.println("Start array: "+Arrays.toString(startArray));
         System.out.println("Reversed array: "+Arrays.toString(ReverseArray.reverseArray(startArray)));
 
+        //romanToInt
+        System.out.println(RomanToInteger.romanToInt("III"));
+        System.out.println(RomanToInteger.romanToInt("LVIII"));
+        System.out.println(RomanToInteger.romanToInt("MCMXCIV"));
+
 
     }
     private static boolean isPalindrome(String text) {
